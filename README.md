@@ -20,3 +20,21 @@ Of course, you'll need some things. It's recommended that you clean up your driv
   * .NET Compiler Platform SDK.
  4. Once you're all done with this, the recommended project for creating programs is Console App (.NET Core).
  5. Now you're all set! Enjoy!
+
+## Linux
+
+.NET structures are designed mainly, but are not limited to, for Windows NT. You may be a Linux user, and you may want to compile your F# code on this OS, rather than dumping your drive with VMs. Luckilly for you, it is possible. Just do as follows:
+
+1. Open the terminal.
+2. Enter the following commands:
+
+```
+wget -q https://packages.microsoft.com/config/ubuntu/19.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+sudo dpkg -i packages-microsoft-prod.deb
+sudo apt-get update
+sudo apt-get install apt-transport-https
+sudo apt-get install dotnet-sdk-3.1
+sudo apt-get install dotnet-runtime-3.1
+```
+
+Once you have these installed, just go to this [page](https://docs.microsoft.com/en-us/dotnet/fsharp/get-started/get-started-command-line) for info regarding creating projects.
