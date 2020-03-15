@@ -1,6 +1,6 @@
 # F# tutorial
 
-![https://raw.githubusercontent.com/wiktornowicki/fsharp_doc/master/thumb.png](https://raw.githubusercontent.com/wiktornowicki/fsharp_doc/master/thumb.png)
+![https://raw.githubusercontent.com/wiktornowicki/fsharp_doc/master/thumb_new.png](https://raw.githubusercontent.com/wiktornowicki/fsharp_doc/master/thumb_new.png)
 
 Welcome to the F# tutorial created by me! While the language might seem to be difficult, once you get past the basics, you'll come to realise that it's not all that difficult. First of all, it's really similar to C# and Visual Basic .NET, so if you're familiar with either of these, F# won't be much of a challenge.
 
